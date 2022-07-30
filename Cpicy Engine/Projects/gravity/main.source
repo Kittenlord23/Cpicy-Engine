@@ -1,0 +1,37 @@
+~enable gravity
+
+begin function test()
+        print: Test called %nl%
+end function
+
+On Event:
+        When: key press[d]
+                start right camera
+        When: key release[d]
+                stop right camera
+        When: key press[a]
+                start left camera
+        When: key release[a]
+                stop left camera
+        When: key press[w]
+                start up camera
+        When: key release[w]
+                stop up camera
+        When: key press[e]
+                __scope__
+                new<integer> x = 0
+                begin while(x < 10)
+                        assign x -> x +1
+                        fetch x
+                        print: %data%
+                end while
+                __unscope__
+                
+On Loop:
+
+
+
+
+
+
+

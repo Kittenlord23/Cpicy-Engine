@@ -1,0 +1,8 @@
+function test:  {print^ Test called %nl%};
+EChain:Block[none,none,__scope__,none,true]::Block[key press,d,start right camera,none,true]::Block[none,none,__unscope__,none,false];
+EChain:Block[none,none,__scope__,none,true]::Block[key release,d,stop right camera,none,true]::Block[none,none,__unscope__,none,false];
+EChain:Block[none,none,__scope__,none,true]::Block[key press,a,start left camera,none,true]::Block[none,none,__unscope__,none,false];
+EChain:Block[none,none,__scope__,none,true]::Block[key release,a,stop left camera,none,true]::Block[none,none,__unscope__,none,false];
+EChain:Block[none,none,__scope__,none,true]::Block[key press,w,start up camera,none,true]::Block[none,none,__unscope__,none,false];
+EChain:Block[none,none,__scope__,none,true]::Block[key release,w,stop up camera,none,true]::Block[none,none,__unscope__,none,false];
+EChain:Block[none,none,__scope__,none,true]::Block[key press,e,__scope__,none,true]::Block[pushed,none,new<integer> x = 0,none,true]::Block[pushed,none,begin while(x < 10)%WHILE_SPLITTER98%set: x = x +1%WHILE_SPLITTER98%get: x%WHILE_SPLITTER98%print: %data%%WHILE_SPLITTER98%end while,none,true]::Block[pushed,none,__unscope__,none,true]::Block[none,none,__unscope__,none,false];

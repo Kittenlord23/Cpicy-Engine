@@ -1,0 +1,1 @@
+default -> type_setting_vsync[True] -> type_setting_frame_delay[60] -> layers[1] -> type_text[] -> type_rect[[472,306,223,179,255,255,255,0,00000003,1,0]::] -> type_line[] -> type_image[] -> type_rect_wall[] -> end <->
